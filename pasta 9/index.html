@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINENOW - Em Cartaz</title>
+
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #e50914;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        
+        .banner {
+            background-color: #111;
+            padding: 40px;
+            margin: 20px;
+            border: 1px solid #444;
+            text-align: center;
+            position: relative;
+        }
+
+        
+        .float-box {
+            width: 180px;
+            height: 110px;
+            background: #222;
+            margin: 20px;
+            border-radius: 8px;
+            float: left;
+            padding: 10px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        
+        .filme-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 20px;
+        }
+
+        .card {
+            width: 250px;
+            background-color: #111;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 0 10px rgba(255,255,255,0.15);
+            padding-bottom: 15px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+        }
+
+        .buy {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #e50914;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 90%;
+        }
+
+        .buy:hover {
+            background-color: #b00610;
+        }
+
+        
+        .botao-contato {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #fff;
+            color: #000;
+            padding: 10px 18px;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CINENOW</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="explicação.html">Explicação dos Posicionamentos</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <h2>Filmes em Cartaz</h2>
+</div>
+
+
+
+<section class="filme-container">
+
+    <div class="card">
+        <h2>Filme 1</h2>
+        <img src="viagem2.jpg" alt="Filme 1">
+        <p>Ação, aventura e muita emoção.</p>
+        <button class="buy">Comprar Ingresso</button>
+    </div>
+
+    <div class="card">
+        <h2>Filme 2</h2>
+        <img src="lugarsilencioso.jpg" alt="Filme 2">
+        <p>Uma história cheia de mistérios.</p>
+        <button class="buy">Comprar Ingresso</button>
+    </div>
+
+    <div class="card">
+        <h2>Filme 3</h2>
+        <img src="juntos e misturados.jpg" alt="Filme 3">
+        <p>Comédia divertida para toda a família.</p>
+        <button class="buy">Comprar Ingresso</button>
+    </div>
+
+    <div class="card">
+        <h2>Filme 4</h2>
+        <img src="ilha do medo.jpg" alt="Filme 4">
+        <p>Suspense cheio de reviravoltas.</p>
+        <button class="buy">Comprar Ingresso</button>
+    </div>
+
+</section>
+
+<a class="botao-contato" href="#">Contato</a>
+
+</body>
+</html>

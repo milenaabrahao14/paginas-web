@@ -1,0 +1,112 @@
+/* ==== ESTILO PADRÃO DO SITE: A NOITE ESTRELADA ==== */
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  color: #f5f7fa;
+  background: linear-gradient(135deg, #0b1e36, #1a3561, #102241);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==== CABEÇALHO ==== */
+header {
+  background: linear-gradient(90deg, #0b1e36, #204b8d);
+  color: #ffdc7a;
+  text-align: center;
+  padding: 25px;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #ffd700;
+  text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.4);
+}
+
+/* ==== CONTEÚDO PRINCIPAL ==== */
+main {
+  background-color: rgba(15, 30, 60, 0.8);
+  width: 90%;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(10, 20, 40, 0.6);
+  border: 2px solid #2a4d8a;
+}
+
+/* ==== RODAPÉ ==== */
+footer {
+  background: linear-gradient(90deg, #0b1e36, #204b8d);
+  color: #ffdc7a;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  border-top: 3px solid #ffd700;
+  margin-top: auto;
+}
+
+/* ==== TABELAS ==== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 2px solid #2a4d8a;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: rgba(255, 215, 0, 0.2);
+  color: #ffdc7a;
+  font-size: 1.1rem;
+}
+
+td {
+  background-color: rgba(30, 50, 90, 0.4);
+}
+
+/* ==== IMAGENS ==== */
+img {
+  width: 130px;
+  border-radius: 10px;
+  border: 3px solid #ffd700;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* ==== BOTÕES ==== */
+.botao {
+  background-color: #204b8d;
+  color: #ffdc7a;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 20px 10px;
+  font-weight: bold;
+  transition: 0.3s;
+  border: 2px solid #ffd700;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.botao:hover {
+  background-color: #2f5ba6;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* ==== LINKS ==== */
+a {
+  color: #ffdc7a;
+}
+
+a:hover {
+  color: #fff;
+}

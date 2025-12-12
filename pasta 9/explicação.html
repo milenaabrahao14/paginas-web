@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicação dos Posicionamentos - CINENOW</title>
+
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #e50914;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .box {
+            background-color: #111;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #e50914;
+            border-radius: 8px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #e50914;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CINENOW</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="explicacao.html">Explicação dos Posicionamentos</a>
+    </nav>
+</header>
+
+<h2>Explicação dos Tipos de Posicionamentos Usados</h2>
+
+<div class="box">
+    <h3>1. <code>position: sticky;</code></h3>
+    <p>Usado no menu superior para que ele permaneça visível mesmo quando o usuário rola a página.</p>
+</div>
+
+<div class="box">
+    <h3>2. <code>position: relative;</code></h3>
+    <p>Aplicado no banner principal, permitindo adicionar elementos no interior dele com base na sua própria posição.</p>
+</div>
+
+<div class="box">
+    <h3>3. <code>position: absolute;</code></h3>
+    <p>Pode ser usado para elementos como etiquetas de “Novo” ou “Promoção” sobre os pôsteres dos filmes.</p>
+</div>
+
+<div class="box">
+    <h3>4. <code>position: fixed;</code></h3>
+    <p>Utilizado no botão “Contato”, que fica preso no canto da tela mesmo durante a rolagem da página.</p>
+</div>
+
+<div class="box">
+    <h3>5. <code>float;</code></h3>
+    <p>Utilizado nas duas caixas de exemplo antes dos filmes para demonstrar como elementos podem flutuar lado a lado.</p>
+</div>
+
+<div class="box">
+    <h3>6. <code>display: flex;</code></h3>
+    <p>Responsável por organizar os cards de filmes lado a lado, adaptando o layout automaticamente.</p>
+</div>
+
+<div class="box">
+    <h3>7. <code>div</code> como contêiner geral</h3>
+    <p>As divs foram usadas para organizar cada área da página: banner, cards, container de filmes, caixas flutuantes etc.</p>
+</div>
+
+</body>
+</html>

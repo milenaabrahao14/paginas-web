@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Conceitos da Tag HEAD</title>
+
+    <style>
+        body {
+            background-color: #330000; 
+            color: white;
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #ff4d4d;
+        }
+
+        .card {
+            background-color: #4d0000;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ff4d4d;
+        }
+
+        pre {
+            background-color: #660000;
+            padding: 10px;
+            border-radius: 5px;
+            color: #ffd6d6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Principais conceitos relacionados com a tag HEAD</h1>
+
+    <div class="card">
+        <h2>1 - Utilidade da tag HEAD</h2>
+        <p>A tag HEAD serve para guardar informações sobre a página, como título, codificação, links de estilos e descrições.  
+        Dentro do HEAD podemos usar: <b>meta, title, link, style, script, base</b>.</p>
+    </div>
+
+    <div class="card">
+        <h2>2 - Para que servem meta, title e base?</h2>
+        <p><b>meta:</b> define informações da página, como descrição e charset.</p>
+        <pre>&lt;meta charset="UTF-8"&gt;</pre>
+
+        <p><b>title:</b> é o nome que aparece na aba do navegador.</p>
+        <pre>&lt;title&gt;Minha Página&lt;/title&gt;</pre>
+
+        <p><b>base:</b> define um link "padrão" para os outros links.</p>
+        <pre>&lt;base href="https://primeirosite.com/"&gt;</pre>
+    </div>
+
+    <div class="card">
+        <h2>3 - O que é charset?</h2>
+        <p>É a forma como o computador interpreta os caracteres (acentos, emojis, letras).  
+        Ele evita que apareçam símbolos estranhos na página.</p>
+    </div>
+
+    <div class="card">
+        <h2>4 - Se o charset não for definido?</h2>
+        <p>O navegador normalmente usa o padrão <b>UTF-8</b>, que é o mais comum.</p>
+    </div>
+
+    <div class="card">
+        <h2>5 - Tipos de Charsets</h2>
+        <p><b>UTF-8:</b> mais usado, aceita acentos e emojis.</p>
+        <p><b>ASCII:</b> mais antigo, só letras básicas sem acento.</p>
+        <p><b>ANSI:</b> usado no Windows, aceita acentos mas é limitado.</p>
+        <p><b>ISO-8859-1:</b> usado no Brasil por muito tempo, aceita acentos.</p>
+    </div>
+
+    <div class="card">
+        <h2>6 - Como usar símbolos e emojis?</h2>
+        <p>Podem ser usados diretamente no HTML.</p>
+        <pre>❤️ 😀 ★ ✓</pre>
+        <p>Ou usando códigos HTML:</p>
+        <pre>&amp;hearts; &amp;#9733; &amp;#128512;</pre>
+    </div>
+
+    <div class="card">
+        <h2>7 - Exemplo com desenho/figura simples</h2>
+        <p>Quadrado feito só com símbolos:</p>
+        <pre>
+🟫🟫🟫🟫🟫
+🟫⬜⬜⬜🟫
+🟫🟩⬜🟩🟫
+🟫🟩🟩🟩🟫
+🟫🟫🟫🟫🟫
+        </pre>
+    </div>
+
+</body>
+</html>
