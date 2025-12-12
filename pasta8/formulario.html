@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Formulário de Cadastro Pessoal</title>
+
+<style>
+    body {
+        background-color: #000;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .container {
+        background-color: #111;
+        border: 1px solid #444;
+        padding: 25px;
+        width: 380px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(212,175,55,0.4);
+    }
+
+    h2 {
+        text-align: center;
+        color: #d4af37;
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-size: 14px;
+        color: #d4af37;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border-radius: 6px;
+        border: 1px solid #666;
+        background-color: #222;
+        color: white;
+    }
+
+    input::placeholder {
+        color: #bbb;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #d4af37;
+        color: black;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #b8922b;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Cadastro Pessoal</h2>
+
+    <form>
+
+        <label>Nome Completo</label>
+        <input type="text" placeholder="Digite seu nome">
+
+        <label>Idade</label>
+        <input type="number" placeholder="Digite sua idade">
+
+        <label>CPF</label>
+        <input type="text" placeholder="000.000.000-00">
+
+        <label>RG</label>
+        <input type="text" placeholder="Digite seu RG">
+
+        <label>E-mail</label>
+        <input type="email" placeholder="exemplo@email.com">
+
+        <label>Nome da Mãe</label>
+        <input type="text" placeholder="Digite o nome da mãe">
+
+        <label>Nome do Pai</label>
+        <input type="text" placeholder="Digite o nome do pai">
+
+        <label>Senha</label>
+        <input type="password" placeholder="Crie sua senha">
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</div>
+
+</body>
+</html>
