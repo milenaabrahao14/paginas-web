@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>IA no Dia a Dia</title>
+
+<style>
+@keyframes glitch {
+  0% { text-shadow: 2px 2px #00ffff; }
+  20% { text-shadow: -2px -2px #00ffff; }
+  40% { text-shadow: 2px -2px #00ffff; }
+  60% { text-shadow: -2px 2px #00ffff; }
+  100% { text-shadow: 2px 2px #00ffff; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+body {
+  margin: 0;
+  background: #000;
+  color: #ccc;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  border-bottom: 1px solid #222;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 2.5em;
+  animation: glitch 2s infinite;
+}
+
+nav a {
+  color: #00ffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-shadow: 0 0 10px #00ffff;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 60px;
+  animation: fadeUp 1s ease;
+}
+
+h2 {
+  color: #fff;
+  border-left: 4px solid #00ffff;
+  padding-left: 12px;
+}
+
+p {
+  line-height: 1.7;
+}
+
+audio, video {
+  width: 100%;
+  margin-top: 15px;
+  background: #111;
+  border: 1px solid #00ffff;
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.3);
+}
+
+.link-box {
+  margin-top: 15px;
+  padding: 20px;
+  background: #0a0a0a;
+  border: 1px dashed #00ffff;
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.2);
+}
+
+.link-box a {
+  color: #00ffff;
+  word-break: break-all;
+  text-decoration: none;
+}
+
+.link-box a:hover {
+  text-shadow: 0 0 10px #00ffff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #222;
+  color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>INTELIGÊNCIA ARTIFICIAL</h1>
+  <nav>
+    <a href="index.html">INÍCIO</a>
+    <a href="Explicaçao.html">ÁUDIO & VÍDEO</a>
+  </nav>
+</header>
+
+<main>
+
+<section>
+<h2>O que é Inteligência Artificial?</h2>
+<p>
+A Inteligência Artificial (IA) é uma tecnologia capaz de simular a inteligência humana,
+aprendendo padrões, tomando decisões e se adaptando a diferentes situações.
+</p>
+</section>
+
+<section>
+<h2>IA no nosso dia a dia</h2>
+<p>
+A IA está presente em assistentes virtuais, algoritmos de redes sociais,
+plataformas de streaming, reconhecimento facial, carros inteligentes e muito mais.
+</p>
+</section>
+
+<section>
+<h2>Exemplo de Áudio</h2>
+<p>Podcast sobre IA <strong>&lt;audio&gt;</strong>.</p>
+<audio controls>
+  <source src="AUDIO.mpeg" type="audio/mpeg">
+</audio>
+</section>
+
+<section>
+<h2>Exemplo de Vídeo Local</h2>
+<p>Exemplo da tag <strong>&lt;video&gt;</strong>.</p>
+<video controls>
+  <source src="VIDEO.mp4" type="video/mp4">
+</video>
+</section>
+
+<section>
+<h2>Link de Vídeo do YouTube sobre IA</h2>
+<p>
+Abaixo está apenas o link para um vídeo do YouTube que complementa o conteúdo sobre
+Inteligência Artificial.
+</p>
+
+<div class="link-box">
+  🔗 <a href="https://youtu.be/jgWLntXzDOU?si=ynDAEW_0UZC9s367" target="_blank">
+    Como Usar a Inteligência Artificial no Dia a Dia
+  </a>
+</div>
+</section>
+
+</main>
+
+<footer>
+© 2026 • Site Educacional • Inteligência Artificial
+</footer>
+
+</body>
+</html>
+
